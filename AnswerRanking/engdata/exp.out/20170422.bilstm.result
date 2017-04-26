@@ -1,0 +1,71 @@
+Using Theano backend.
+Loading data...
+question shape (4718, 33)
+answer shape (4718, 40)
+TEST question shape (1517, 33)
+TEST answer shape (1517, 40)
+DEV question shape (1148, 33)
+DEV answer shape (1148, 40)
+Generating random vocabulary for word overlap indicator features with dim: 5
+Gaussian
+Loading word embeddings from engdata/emb_vocab_embedding.npy
+Word embedding matrix size: (17023, 50)
+Build model...
+write the test result!
+Train...
+Train on 4718 samples, validate on 1148 samples
+Epoch 1/50
+20s - loss: 0.2757 - acc: 0.9231 - val_loss: 0.5135 - val_acc: 0.8066
+Epoch 2/50
+20s - loss: 0.2173 - acc: 0.9267 - val_loss: 0.4587 - val_acc: 0.8118
+Epoch 3/50
+20s - loss: 0.1829 - acc: 0.9354 - val_loss: 0.4706 - val_acc: 0.8197
+Epoch 4/50
+20s - loss: 0.1744 - acc: 0.9379 - val_loss: 0.4265 - val_acc: 0.8258
+Epoch 5/50
+20s - loss: 0.1672 - acc: 0.9396 - val_loss: 0.4595 - val_acc: 0.8206
+Epoch 6/50
+20s - loss: 0.1608 - acc: 0.9415 - val_loss: 0.4970 - val_acc: 0.8162
+Epoch 7/50
+20s - loss: 0.1591 - acc: 0.9387 - val_loss: 0.4278 - val_acc: 0.8206
+Epoch 8/50
+20s - loss: 0.1520 - acc: 0.9453 - val_loss: 0.4655 - val_acc: 0.8179
+Epoch 9/50
+20s - loss: 0.1493 - acc: 0.9474 - val_loss: 0.4236 - val_acc: 0.8197
+Epoch 10/50
+20s - loss: 0.1437 - acc: 0.9491 - val_loss: 0.4973 - val_acc: 0.8197
+Epoch 11/50
+21s - loss: 0.1427 - acc: 0.9462 - val_loss: 0.5185 - val_acc: 0.8179
+Epoch 12/50
+20s - loss: 0.1350 - acc: 0.9487 - val_loss: 0.4996 - val_acc: 0.8188
+Epoch 13/50
+20s - loss: 0.1329 - acc: 0.9515 - val_loss: 0.4750 - val_acc: 0.8171
+Epoch 14/50
+20s - loss: 0.1304 - acc: 0.9532 - val_loss: 0.4100 - val_acc: 0.8249
+Epoch 15/50
+20s - loss: 0.1271 - acc: 0.9555 - val_loss: 0.4298 - val_acc: 0.8240
+Epoch 16/50
+19s - loss: 0.1250 - acc: 0.9555 - val_loss: 0.4624 - val_acc: 0.8162
+Epoch 17/50
+19s - loss: 0.1166 - acc: 0.9604 - val_loss: 0.5263 - val_acc: 0.8153
+Epoch 18/50
+20s - loss: 0.1161 - acc: 0.9572 - val_loss: 0.5381 - val_acc: 0.8171
+Epoch 19/50
+20s - loss: 0.1113 - acc: 0.9585 - val_loss: 0.4899 - val_acc: 0.8145
+Epoch 20/50
+19s - loss: 0.1097 - acc: 0.9623 - val_loss: 0.4325 - val_acc: 0.8232
+Epoch 21/50
+20s - loss: 0.1041 - acc: 0.9612 - val_loss: 0.4652 - val_acc: 0.8145
+Epoch 22/50
+20s - loss: 0.1005 - acc: 0.9648 - val_loss: 0.4888 - val_acc: 0.8153
+Epoch 23/50
+20s - loss: 0.0975 - acc: 0.9635 - val_loss: 0.5228 - val_acc: 0.8162
+Epoch 24/50
+20s - loss: 0.0933 - acc: 0.9661 - val_loss: 0.4572 - val_acc: 0.8188
+Epoch 25/50
+20s - loss: 0.0952 - acc: 0.9650 - val_loss: 0.4842 - val_acc: 0.8145
+map            	all	0.7473
+recip_rank     	all	0.8074
+Test score: 0.443798911634
+Test accuracy: 0.847725774673
+
