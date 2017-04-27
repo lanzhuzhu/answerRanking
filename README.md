@@ -6,7 +6,9 @@ answer selection task for QA
 - keras2.0
 - gensim
 - cPickel
-The pre-initialized word2vec embeddings have to be downloaded from [here](https://drive.google.com/open?id=0B-yipfgecoSBb1dTcW5MdVhGNkE).
+
+预训练的word2vec embeddings 从[这里](https://drive.google.com/open?id=0B-yipfgecoSBb1dTcW5MdVhGNkE)下载 .
+放在embedding/目录下。
 
 ## 运行：
 - python data.py
